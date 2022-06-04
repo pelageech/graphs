@@ -26,11 +26,10 @@ _Example_: **Mul ( Sin ( Pow X ( Num 2 ) ) ) ( Add ( Cos X ) ( Div ( Sin X ) X )
 <img style="width: 60%" src="https://i.imgur.com/zcaGOzn.png">
 
 ## Parameters
-All the parameters in pixels
--  `--xstart ARG` Set x-start of the window (default: 40)
--  `--ystart ARG` Set y-start of the window (default: 40)
--  `--width ARG` Set width of the window (default: 1455)
--  `--height ARG` Set height of the window (default: 650)
--  `-s` `--segment ARG` Set a single segment of the graph (default: 44, almost 1cm)
--  `-x` `--xoffset ARG` Set xoffset relative to the origin
--  `-y` `--yoffset ARG` Set yoffset relative to the origin
+-  `--xstart ARG` Set x-start of the window in pixels (default: 40)
+-  `--ystart ARG` Set y-start of the window in pixels (default: 40)
+-  `--width ARG` Set width of the window in pixels (default: 1455)
+-  `--height ARG` Set height of the window in pixels (default: 650)
+-  `-s` `--segment ARG` Set a single segment of the graph in pixels (default: 44, almost 1cm)
+-  `-x` `--xoffset ARG` Set xoffset relative to the origin (shift by one segment)
+-  `-y` `--yoffset ARG` Set yoffset relative to the origin (shift by one segment)
